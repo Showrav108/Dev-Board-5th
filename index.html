@@ -29,8 +29,8 @@
     </script> -->
 </head>
 <body class="font-sora">
-    <header class="mt-5 rounded-xl bg-slate-50">
-        <nav class="flex justify-between p-4">
+    <header class="rounded-xl bg-slate-200">
+        <nav class="flex justify-between p-4 mt-8">
             <div class="flex gap-3">
                 <img src="assets/logo.png" alt="">
                 <h2 class="text-3xl">Dev <span class="font-bold">Board</span></h2>
@@ -41,7 +41,7 @@
                        <span id="navbar-count">23</span>
                 </label>
                 <div >
-                    <button><img class="" src="assets/theme-btn.png" alt=""></button>
+                    <img src="assets/theme-btn.png" id="color-btn" alt="">
                 </div>
             </div>
         </nav>
@@ -50,21 +50,21 @@
         <section>
             <div class="flex gap-3 mt-5 mb-6">
                 <div class="grid grid-cols-3 gap-5 justify-center w-4/5">
-                    <div class="flex gap-5 bg-slate-100 rounded-xl px-3 pt-7">    
+                    <div class="flex gap-5 bg-slate-200 rounded-xl px-3 pt-7">    
                         <img class="w-8 h-8" src="assets/checkbox.png" alt=""> 
                         <h4 id="task-assigned" class="text-gray-600"> Task Assigned <br>
                            <span >6</span></h4>
                     </div>
-                    <div class="flex gap-5  bg-slate-100 rounded-xl 
+                    <div id="discover-new" class="flex gap-5  bg-slate-200 rounded-xl 
                     bg-linear-to-r from-blue-500 to-blue-300 p-3">
                         <img src="assets/board.png" alt="">
                         <h2 class="text-white text-lg">Discover Something New Today!</h2>
                     </div>
-                    <div class="flex gap-5  bg-slate-100 rounded-xl px-3 pt-7">    
+                    <div class="flex gap-5  bg-slate-200 rounded-xl px-3 pt-7">    
                         <img class="w-9 h-8" src="assets/calender.png" alt=""> 
                         <h4 id="date" class="text-gray-600"> Tue Feb 25 2025</h4>
                     </div>
-                    <div class="card card-border rounded-xl bg-slate-100 ">
+                    <div class="card card-border rounded-xl bg-slate-200 ">
                         <div class="card-body">
                            <h6 class="text-gray-600 text-base">Shop Ease</h6>
                           <h2 class="card-title font-bold">Fix Mobile Button Issue</h2>
@@ -82,7 +82,7 @@
                           </div>
                         </div>
                     </div>
-                    <div class="card card-border rounded-xl bg-slate-100">
+                    <div class="card card-border rounded-xl bg-slate-200">
                         <div class="card-body">
                            <h6 class="text-gray-600 text-base">CloudSync</h6>
                           <h2 class="card-title font-bold">Add Dark Mode</h2>
@@ -99,7 +99,7 @@
                           </div>
                         </div>
                     </div>
-                    <div class="card card-border rounded-xl bg-slate-100">
+                    <div class="card card-border rounded-xl bg-slate-200">
                         <div class="card-body">
                            <h6 class=" text-gray-600 text-base">SwiftPay</h6>
                           <h2 class="card-title font-bold">Optimize  Home page </h2>
@@ -117,7 +117,7 @@
                           </div>
                         </div>
                     </div>
-                    <div class="card card-border rounded-xl bg-slate-100">
+                    <div class="card card-border rounded-xl bg-slate-200">
                         <div class="card-body">
                            <h6 class="text-gray-600 text-base">Meta</h6>
                           <h2 class="card-title font-bold">Add new emoji 🤲 </h2>
@@ -135,7 +135,7 @@
                           </div>
                         </div>
                     </div>
-                    <div class="card card-border rounded-xl bg-slate-100">
+                    <div class="card card-border rounded-xl bg-slate-200">
                         <div class="card-body">
                            <h6 class=" text-gray-600 text-base">Google LLC</h6>
                           <h2 class="card-title font-bold">Integrate OpenAI API </h2>
@@ -153,7 +153,7 @@
                           </div>
                         </div>
                     </div>
-                    <div class="card card-border rounded-xl bg-slate-100">
+                    <div class="card card-border rounded-xl bg-slate-200">
                         <div class="card-body">
                            <h6 class=" text-gray-600 text-base">Glassdoar</h6>
                           <h2 class="card-title font-bold">Improve Job searching</h2>
@@ -172,7 +172,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-1/5 text-center  bg-slate-100 row-span-4 rounded-xl">
+                <div class="w-1/5 text-center  bg-slate-200 row-span-4 rounded-xl">
                     <div class="flex gap-2 pb-3 mt-4 justify-center">
                         <img src="assets/activity.png" alt="">
                         <h4 id="activity" class="text-gray-600">Activity Log</h4>
@@ -183,5 +183,8 @@
         </section>
     </main>
     <script src="js/card.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/button.js"></script>
+    <script src="js/discover-new.js"></script>
 </body>
 </html>
